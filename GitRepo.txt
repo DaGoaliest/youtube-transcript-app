@@ -1,0 +1,62 @@
+### **Yes! To Keep Everything in Sync, Follow These Steps Every Time**  
+Whenever you switch between **Windows** and **Mac**, you need to either **pull changes** (to get the latest updates) or **push changes** (to upload your work).  
+
+---
+
+### **Where Do You Run These Commands?**
+You can run them **inside the VS Code terminal** or **in Git Bash**—either works!  
+If you're already working in VS Code, just open the terminal there.
+
+---
+
+### **When Working on Windows:**
+After making changes to your code on Windows:
+1. **Open Git Bash inside your project folder** (or use VS Code terminal).
+2. Run the following commands **one by one**:
+
+   ```sh
+   git add .
+   git commit -m "Updated from Windows"
+   git push origin main
+   ```
+
+---
+
+### **When Switching to Mac:**
+Before making new changes on Mac, **pull the latest updates** so everything is up to date:
+1. Open **Terminal** on Mac.
+2. Navigate to your project folder:
+   ```sh
+   cd "/Users/sergiobaksh/Desktop/Python Exercises/assignments"
+   ```
+3. Pull the latest changes:
+   ```sh
+   git pull origin main
+   ```
+
+Now your Mac is up to date with your Windows edits.
+
+---
+
+### **When Working on Mac:**
+If you make changes on your Mac and want them to appear on Windows:
+1. **Commit and push your changes**:
+   ```sh
+   git add .
+   git commit -m "Updated from Mac"
+   git push origin main
+   ```
+
+2. **On Windows, before working, pull the latest version**:
+   ```sh
+   git pull origin main
+   ```
+
+---
+
+### **Final Answer: Where to Run These Commands?**
+✅ **You can run them in VS Code’s terminal or in Git Bash.**  
+✅ **You must do this every time you switch computers to keep your files synced.**  
+✅ **Always `git pull origin main` before making new changes on the other computer.**  
+
+Let me know if you need further clarification! 🚀
